@@ -1,0 +1,13 @@
+{
+  "LINK": "https://recruitery.co/en-US/job?location=1019&jobtype=0&keyword=",
+  "JOB_ITEM_SELECTOR": ".job-list-item-card",
+  "AUTO_SCROLL_SELECTOR": ".job-list-item-card a",
+  "SELECTORS": [
+    {"name": "company", "description": "company", "selector": ".tag-urgent", "type": "TEXT"},
+    {"name": "jobTitle", "description": "jobTitle", "selector": ".job-list-item-detail-title a", "type": "TEXT"},
+    {"name": "jobType", "description": "jobType", "selector": ".job-list-item-detail-reward", "type": "TEXT"},
+    {"name": "location", "description": "location", "selector": ".job-list-item-detail-tags > .tag", "type": "TEXT"},
+    {"name": "postedDate", "description": "postedDate", "selector": ".job-list-item-detail-salary span", "type": "TEXT"},
+    {"name": "link", "description": "link", "selector": ".job-list-item-detail-title a", "type": "LINK"}
+  ]
+}

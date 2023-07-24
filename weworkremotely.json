@@ -1,0 +1,13 @@
+{
+  "LINK": "https://weworkremotely.com/remote-jobs/search?search_uuid=&term=&sort=any_time&categories%5B%5D=2&categories%5B%5D=17&categories%5B%5D=18&categories%5B%5D=6&categories%5B%5D=11",
+  "JOB_ITEM_SELECTOR": "article > ul > li.feature, article > ul > li:not(.feature)",
+  "AUTO_SCROLL_SELECTOR": ".job-list-job-title a",
+  "SELECTORS": [
+    {"name": "company", "description": "company", "selector": "a > .company", "type": "TEXT"},
+    {"name": "jobTitle", "description": "jobTitle", "selector": ".title", "type": "TEXT"},
+    {"name": "jobType", "description": "jobType", "selector": "a > .company:nth-child(6)", "type": "TEXT"},
+    {"name": "location", "description": "location", "selector": ".region", "type": "TEXT"},
+    {"name": "postedDate", "description": "postedDate", "selector": "time", "type": "TEXT"},
+    {"name": "link", "description": "link", "selector": ".tooltip a", "type": "LINK"}
+  ]
+}

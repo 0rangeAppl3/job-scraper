@@ -1,0 +1,19 @@
+{
+  "LINK": "https://portfoliojobs.a16z.com/jobs?jobTypes=Software+Engineer&jobTypes=Engineer&jobTypes=Backend+Engineer&jobTypes=Frontend+Engineer&jobTypes=Senior+Software+Engineer&postedSince=P7D&remoteOnly=true",
+  "JOB_ITEM_SELECTOR": ".job-list-job",
+  "AUTO_SCROLL_SELECTOR": ".job-list-job-title a",
+  "SELECTORS": [
+    {"name": "jobTitle", "description": "jobTitle", 
+                 "selector": ".job-list-job-title a", "type": "TEXT"},
+             {"name": "company", "description": "company",
+                 "selector": ".job-list-job-company-link", "type": "TEXT"},
+             {"name": "location", "description": "location",
+              "selector": ".job-list-job-details > .job-list-company-meta-item", "type": "TEXT"},
+             {"name": "remoteWork", "description": "remoteWork",
+              "selector": ".job-list-badge-remote .job-list-badge-text", "type": "TEXT"},
+             {"name": "postedDate", "description": "postedDate",
+              "selector": ".job-list-badge-posted .job-list-badge-text", "type": "TEXT"},
+             {"name": "link", "description": "link",
+              "selector": ".job-list-job-title a", "type": "LINK"}
+  ]
+}
